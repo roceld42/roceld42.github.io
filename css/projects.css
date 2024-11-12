@@ -102,7 +102,7 @@ W3schools.com. "CSS Image Gallery." W3Schools Online Web Tutorials. (n.d.). Acce
 
 /* Media Queries */
 
-@media (max-width: 540px) {
+@media screen and (max-width: 540px) {
     body {
         flex-direction: column;
     }
@@ -110,7 +110,7 @@ W3schools.com. "CSS Image Gallery." W3Schools Online Web Tutorials. (n.d.). Acce
         font-size: 1em;
     }
     nav {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     p {
         font-size: 0.5em;

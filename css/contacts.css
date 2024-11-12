@@ -116,7 +116,7 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 540px) {
+@media screen and (max-width: 540px) {
     body {
         flex-direction: column;
     }
@@ -124,10 +124,10 @@ footer {
         font-size: 1em;
     }
     nav {
-        font-size: 1em;
+        font-size: 0.7em;
     }
-    p {
-        font-size: 0.5em;
+    .b {
+        font-size: 0.8em;
     }
     main section {
         font-size: 0.5em;

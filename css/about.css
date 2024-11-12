@@ -111,11 +111,14 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 540px) {
+@media screen and (max-width: 800px) {
     body {
         flex-direction: column;
     }
-    h1, h2, h3, h4 {
+    h1, h2 {
+        font-size: 1.2em;
+    }
+    h3 {
         font-size: 1em;
     }
     nav {
@@ -124,10 +127,28 @@ footer {
     p {
         font-size: 1em;
     }
-    section {
-        font-size: 0.5em;
+    li {
+        font-size: 0.8em;
+    }
+    section#table {
+        width: auto;
+        font-size: 0.8em;
     }
     small {
+        font-size: 0.6em;
+    }
+    .aboutrow {
+        width: 40%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 665px) {
+    body {
+        font-size: 1em
+    }
+    section#table {
         font-size: 0.5em;
     }
 }
