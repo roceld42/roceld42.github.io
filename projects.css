@@ -106,16 +106,22 @@ W3schools.com. "CSS Image Gallery." W3Schools Online Web Tutorials. (n.d.). Acce
     body {
         flex-direction: column;
     }
-    h1, h2, h3, h4 {
+    h2, h3, h4 {
         font-size: 1em;
     }
+    h1 {
+        font-size: 0.8em;
+    }
     nav {
-        font-size: 1em;
+        font-size: 0.5em;
     }
     p {
         font-size: 0.5em;
     }
     small {
         font-size: 0.5em;
+    }
+    .row {
+        flex-direction: column;
     }
 }
