@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gowun+Dodum&family=Oswald:wght@200..700&display=swap');
+:root {
+    font-size: 1.2em;
+}
+body {
+    background-color: rgb(249, 249, 249);
+    margin: 0px;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    float: left;
+    margin: 20px;
+}
+
+header {
+    background-color: rgb(194, 227, 255);
+    color: rgb(57, 60, 60);
+    padding: 5px 12%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navigation */
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+}
+
+nav a {
+    color: rgb(8, 80, 142);
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(142, 195, 241);
+}
+
+h1 {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+nav {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+/* Contact Box */
+
+.b {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+p {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+/* Section */
+
+main section {
+    text-align: center;
+    background-color: rgb(203, 229, 245);
+    margin: 30px auto;
+    width: 50%;
+    border: 5px solid rgb(246, 241, 241);
+    padding: 10px;
+    color: rgb(24, 80, 128);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+
+/* Links 
+source: W3schools.com."CSS Styling Links." (n.d.). Accessed: Nov. 11, 2024. [Online] Available:https://www.w3schools.com/css/css_link.asp */
+
+.b:link {
+    text-decoration: none;
+    color: rgb(24, 80, 128);
+}
+
+.b:visited {
+    color: rgb(24, 80, 128);
+}
+
+.b:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(194, 227, 255);
+    color: rgb(57, 60, 60);
+}

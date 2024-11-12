@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gowun+Dodum&family=Oswald:wght@200..700&display=swap');
+:root {
+    font-size: 1.2em;
+}
+body {
+    background-color: rgb(249, 249, 249);
+    margin: 0px;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+header {
+    background-color: rgb(194, 227, 255);
+    color: rgb(57, 60, 60);
+    padding: 5px 12%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+}
+
+nav a {
+    color: rgb(8, 80, 142);
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(142, 195, 241);
+} 
+
+/* Fonts */
+
+h1, h2 {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(66, 66, 67);
+}
+
+nav {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+p {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    color: rgb(66, 66, 67);
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(194, 227, 255);
+    color: rgb(57, 60, 60);
+}
+
+/* Images 
+Sources: 
+W3schools.com. "CSS Image Gallery." W3Schools Online Web Tutorials. (n.d.). Accessed: Nov. 11, 2024. [Online]. Available:https://www.w3schools.com/css/css_image_gallery.asp */
+
+.row {
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
