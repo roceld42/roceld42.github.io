@@ -127,7 +127,19 @@ footer {
     section {
         font-size: 0.5em;
     }
+    li {
+        font-size: 0.8em;
+    }
+    section#table {
+        width: auto;
+        font-size: 0.5em;
+    }
     small {
         font-size: 0.5em;
+    }
+    .aboutrow {
+        width: 40%;
+        flex-direction: column;
+        margin: 0 auto;
     }
 }
