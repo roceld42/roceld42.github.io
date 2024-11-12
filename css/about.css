@@ -138,9 +138,12 @@ footer {
         font-size: 0.6em;
     }
     .aboutrow {
-        width: 40%;
+        width: 80%;
         flex-direction: column;
         margin: 0 auto;
+    }
+    header {
+        width: 100%;
     }
 }
 
