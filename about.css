@@ -108,3 +108,26 @@ footer {
     background-color: rgb(194, 227, 255);
     color: rgb(57, 60, 60);
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 540px) {
+    body {
+        flex-direction: column;
+    }
+    h1, h2, h3, h4 {
+        font-size: 1em;
+    }
+    nav {
+        font-size: 1em;
+    }
+    p {
+        font-size: 1em;
+    }
+    section {
+        font-size: 0.5em;
+    }
+    small {
+        font-size: 0.5em;
+    }
+}
