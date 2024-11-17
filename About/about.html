@@ -22,6 +22,7 @@
     <main>
         <section>
             <h2>Introduction:</h2>
+            <button id="btn-alert">Hello!</button>
             <p>I am a student at <strong>SAIT's Interactive Design</strong> program majoring in <strong>Graphic Design.</strong></p>
         </section>
         <section>
@@ -36,8 +37,17 @@
                     </ol>
                 </div>
                 <div class="aboutcolumn">
+                        <h4>Future Courses:</h5>
+                        <ol id="numbers">
+                            <li>Intermediate Web Comms</li>
+                            <li>Intermediate Digital Media</li>
+                            <li>Intro UX Design</li>
+                            <li>Intermediate Visual Design</li>
+                        </ol>
+                </div>
+                <div class="aboutcolumn">
                     <section id="table">
-                        <h4>Some things about me:</h4>
+                        <h5>Some things about me:</h4>
                         <table>
                             <tr>
                                 <th>Skills</th>
@@ -66,7 +76,8 @@
         </section>
     </main>
     <footer>
-        <small>&copy; 2024 Rocel De Leon</small>
+        <small>&copy; Rocel De Leon <span id="footeryear"></span></small>
     </footer>
+    <script defer src="../js/about.js"></script>
 </body>
 </html>

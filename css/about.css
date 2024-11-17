@@ -28,6 +28,22 @@ header {
     justify-content: space-between;
 }
 
+button {
+    font-size: 0.9em;
+    background-color: rgb(195, 223, 247);
+    color: rgb(82, 82, 82);
+    cursor: pointer;
+    border-style: outset;
+    border-color: rgb(214, 214, 214);
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(142,196,241);
+}
+
+/* Navigation */
+
 nav ul {
     float: right;
     list-style-type: none;
@@ -51,7 +67,7 @@ nav a:hover {
 
 /* Fonts */
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family: "Gowun Dodum", sans-serif;
         font-weight: 1000;
         font-style: normal;
