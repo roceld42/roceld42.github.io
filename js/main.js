@@ -18,6 +18,7 @@ if (d.getHours() <= 11) {
 }
 else if (d.getHours() <18) {
     buttondate.style.backgroundColor = "#ff941a";
+    buttondate.style.color = "#ffffff";
 }
 else {
     buttondate.style.backgroundColor = "#0050c7";
